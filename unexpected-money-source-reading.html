@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>你下一筆意想不到的財運，可能從哪裡來？｜命運編輯部 Gina</title>
+  <meta name="description" content="四選一大眾占卜，看看下一筆意想不到的財運，可能透過哪種機會來到你身邊，以及你該如何接住它。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f8f3eb;
+      --bg-soft:#fffaf4;
+      --card:#fffdf9;
+      --line:#ead8bb;
+      --gold:#c8962a;
+      --gold-deep:#a97713;
+      --rose:#7a3e3e;
+      --rose-soft:#c4767a;
+      --text:#3d2a20;
+      --muted:#6f6057;
+      --shadow:0 18px 40px rgba(122,62,62,.08);
+      --radius:22px;
+      --radius-sm:16px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:"Noto Sans TC",sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(200,150,42,.12), transparent 28%),
+        radial-gradient(circle at bottom left, rgba(196,118,122,.10), transparent 24%),
+        var(--bg);
+      line-height:1.8;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(100%, 860px);margin:0 auto;padding:0 20px}
+    .hero{padding:58px 0 28px}
+    .eyebrow{
+      display:inline-block;
+      padding:8px 16px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.65);
+      color:var(--gold-deep);
+      font-weight:700;
+      letter-spacing:.08em;
+      font-size:13px;
+    }
+    h1,h2,h3{
+      font-family:"Noto Serif TC",serif;
+      margin:0;
+      line-height:1.35;
+      color:var(--rose);
+    }
+    h1{font-size:clamp(32px,6vw,52px);margin-top:18px}
+    .lead{
+      margin:18px 0 0;
+      font-size:17px;
+      color:var(--muted);
+    }
+    .top-card{
+      margin-top:26px;
+      background:linear-gradient(180deg, rgba(255,255,255,.9), rgba(255,250,244,.96));
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:var(--shadow);
+    }
+    .top-card p{margin:0;color:var(--muted)}
+    .top-card b{color:var(--rose)}
+    .jump-row{
+      display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;
+    }
+    .pill{
+      padding:10px 16px;border-radius:999px;border:1px solid var(--line);
+      background:#fff; font-size:14px; font-weight:700; color:var(--rose);
+    }
+    section{padding:26px 0}
+    .section-title{font-size:30px;margin-bottom:10px}
+    .section-desc{margin:0 0 22px;color:var(--muted)}
+    .choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .choice-card{
+      background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;
+      box-shadow:var(--shadow);transition:transform .18s ease, box-shadow .18s ease;
+    }
+    .choice-card:hover{transform:translateY(-3px);box-shadow:0 22px 36px rgba(122,62,62,.12)}
+    .choice-label{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#fff7ee;border:1px solid var(--line);font-weight:900;color:var(--rose);margin-bottom:10px;font-family:"Noto Serif TC",serif}
+    .choice-card img{border-radius:14px;aspect-ratio:1.18;object-fit:cover;border:1px solid #f0e6d7}
+    .choice-tip{margin-top:16px;background:#fff6ef;border-left:4px solid var(--gold);padding:14px 16px;border-radius:14px;color:var(--muted)}
+    .answers{display:grid;gap:18px}
+    .answer-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow)}
+    .answer-tag{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:#fff4ea;border:1px solid var(--line);font-weight:800;color:var(--gold-deep);font-size:13px}
+    .answer-card h3{font-size:28px;margin:12px 0 8px}
+    .subtitle{color:var(--rose-soft);font-weight:700;margin-bottom:12px}
+    .answer-card p{margin:10px 0}
+    .bullets{display:grid;gap:10px;margin-top:14px}
+    .bullet{background:var(--bg-soft);border:1px solid #f0e6d7;border-radius:14px;padding:13px 14px}
+    .bullet b{color:var(--rose)}
+    .divider{height:1px;background:linear-gradient(90deg, transparent, var(--line), transparent);margin:8px 0 6px}
+    .mini-note{margin-top:14px;font-size:14px;color:var(--muted)}
+    .cta{
+      background:linear-gradient(180deg, #fffaf5, #fff);
+      border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:var(--shadow)
+    }
+    .cta h2{font-size:30px;margin-bottom:10px}
+    .cta p{margin:10px 0;color:var(--muted)}
+    .cta-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+    .cta-item{background:var(--bg-soft);border:1px solid #f0e6d7;border-radius:16px;padding:15px}
+    .cta-item b{display:block;color:var(--rose);margin-bottom:4px}
+    .button-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:999px;font-weight:900
+    }
+    .btn-primary{background:var(--gold);color:#fff}
+    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--rose)}
+    .footer{padding:18px 0 50px;text-align:center;color:var(--muted);font-size:14px}
+    .footer b{color:var(--rose)}
+    @media (max-width:720px){
+      .hero{padding-top:38px}
+      .choice-grid,.cta-grid{grid-template-columns:1fr}
+      .section-title,.cta h2{font-size:26px}
+      .answer-card h3{font-size:24px}
+      .top-card,.answer-card,.cta{padding:18px}
+      .lead{font-size:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="eyebrow">大眾占卜・財運主題</span>
+      <h1>你下一筆意想不到的財運，<br>可能從哪裡來？</h1>
+      <p class="lead">這不是在猜圖片本身的意思，而是透過你的直覺，對應到目前最適合你的財運訊息。真正重要的，是你最近會透過什麼方式遇到機會、又該怎麼把它接住。</p>
+      <div class="top-card">
+        <p><b>這一頁你會看見：</b> 下一筆財運最可能從哪裡出現、你近期要留意的機會訊號、以及你現在最適合採取的行動。</p>
+        <div class="jump-row">
+          <a class="pill" href="#choices">先選 A／B／C／D</a>
+          <a class="pill" href="#answer-a">看 A 解析</a>
+          <a class="pill" href="#answer-b">看 B 解析</a>
+          <a class="pill" href="#answer-c">看 C 解析</a>
+          <a class="pill" href="#answer-d">看 D 解析</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="choices">
+      <h2 class="section-title">先憑直覺，選一張最有感覺的圖</h2>
+      <p class="section-desc">不用分析哪張看起來比較有錢，也不用硬猜圖面象徵。你第一眼最有感覺的那一張，就是這次要帶你看的方向。</p>
+      <div class="choice-grid">
+        <a class="choice-card" href="#answer-a">
+          <div class="choice-label">A</div>
+          <img src="money-choice-a.jpg" alt="財運選項 A">
+        </a>
+        <a class="choice-card" href="#answer-b">
+          <div class="choice-label">B</div>
+          <img src="money-choice-b.jpg" alt="財運選項 B">
+        </a>
+        <a class="choice-card" href="#answer-c">
+          <div class="choice-label">C</div>
+          <img src="money-choice-c.jpg" alt="財運選項 C">
+        </a>
+        <a class="choice-card" href="#answer-d">
+          <div class="choice-label">D</div>
+          <img src="money-choice-d.jpg" alt="財運選項 D">
+        </a>
+      </div>
+      <div class="choice-tip">小提醒：<b>選項圖只是直覺入口，不是答案本身。</b> 所以就算你選到的圖片看起來像禮物、電腦或咖啡，也不代表答案只會發生在那種場景裡。</div>
+    </section>
+
+    <section>
+      <h2 class="section-title">你的四組財運訊息</h2>
+      <p class="section-desc">每一組我都把重點放在：<b>機會怎麼來、會以什麼形式出現、你要怎麼接住</b>。這樣你看完不只是覺得準，而是真的知道下一步可以做什麼。</p>
+      <div class="answers">
+        <article class="answer-card" id="answer-a">
+          <div class="answer-tag">選項 A</div>
+          <h3>舊人脈，可能帶來一筆新機會</h3>
+          <div class="subtitle">關鍵字：久未聯絡、回頭客、朋友轉介、過去累積開始回流</div>
+          <p>你這組的財運，不一定來自全新的陌生管道，反而很可能來自你過去累積的人脈、作品、口碑，或某個你曾經合作過的人。這筆錢不是憑空掉下來，而是你以前做過的事，開始在現在產生回報。</p>
+          <div class="divider"></div>
+          <div class="bullets">
+            <div class="bullet"><b>最可能的情境：</b> 某位以前合作過的人重新找上你、舊客戶回流、朋友突然想到你很適合某個案子，或某個你曾經做過的內容再次被看見。</div>
+            <div class="bullet"><b>你要留意的訊號：</b> 久沒聯絡的人突然傳訊、舊對話被重啟、以前擱著的合作又被提起，或有人問你「最近還有沒有在做這個？」</div>
+            <div class="bullet"><b>你現在最適合做的事：</b> 整理一下你現有的服務、作品、可合作項目，讓別人一問就能馬上看到你現在能提供什麼。</div>
+            <div class="bullet"><b>這組的提醒：</b> 不要因為對方是舊識就不好意思開口談條件。熟人帶來的機會，依然值得你用專業的方式定價。</div>
+          </div>
+          <p class="mini-note">一句話總結：<b>你下一筆財運，很可能不是新闖進來的，而是舊連結重新流動起來的。</b></p>
+        </article>
+
+        <article class="answer-card" id="answer-b">
+          <div class="answer-tag">選項 B</div>
+          <h3>一個差點被你放下的計畫，可能重新開花</h3>
+          <div class="subtitle">關鍵字：延遲回報、重新啟動、舊提案回來、努力終於被看見</div>
+          <p>你這組的財運，很像是一件你原本已經不太抱希望的事情，突然開始有了反應。它可能曾經卡住、拖延、沒下文，甚至讓你懷疑是不是白忙一場；但現在，它有機會以另一種形式回來，帶出收入或資源上的回報。</p>
+          <div class="divider"></div>
+          <div class="bullets">
+            <div class="bullet"><b>最可能的情境：</b> 舊提案重新被翻出來、以前談過的合作再次被邀請、原本沒效果的內容開始被看見，或某件長期耕耘的事終於有了成果。</div>
+            <div class="bullet"><b>你要留意的訊號：</b> 對方突然回信、過去中斷的討論被接回來、某個計畫開始出現第一批回饋，或你發現一件事其實還有延伸空間。</div>
+            <div class="bullet"><b>你現在最適合做的事：</b> 回頭看一遍那些你曾經投入過、但還沒好好收尾的計畫。不是全部重做，而是找出最值得重新打開的那一個。</div>
+            <div class="bullet"><b>這組的提醒：</b> 不要太快否定延遲的回報。有些財運不是慢，而是正在累積一個比較穩的落點。</div>
+          </div>
+          <p class="mini-note">一句話總結：<b>你下一筆財運，很可能來自某件你以為結束了，其實還沒真正結束的事。</b></p>
+        </article>
+
+        <article class="answer-card" id="answer-c">
+          <div class="answer-tag">選項 C</div>
+          <h3>臨時出現的機會，會讓你多賺一筆</h3>
+          <div class="subtitle">關鍵字：突然邀約、短期合作、額外收入、剛好派上用場</div>
+          <p>你這組的財運比較像是「本來不在計畫內」，卻忽然出現的一筆收入。可能是一個短期專案、臨時合作、代班、救火、加開、加接，或某種你本來沒打算做，結果意外很適合的機會。</p>
+          <div class="divider"></div>
+          <div class="bullets">
+            <div class="bullet"><b>最可能的情境：</b> 有人臨時需要你幫忙、短期需求找上門、突然出現加碼合作，或你某個現成能力剛好符合眼前需求。</div>
+            <div class="bullet"><b>你要留意的訊號：</b> 很急的訊息、突然被介紹、對方說「你方便接一下嗎？」、「剛好想到你」，或你最近開始反覆聽到某種相似需求。</div>
+            <div class="bullet"><b>你現在最適合做的事：</b> 先想清楚自己的接案邊界與價格範圍。機會來得快時，最怕不是沒有機會，而是你當下不知道怎麼回。</div>
+            <div class="bullet"><b>這組的提醒：</b> 臨時機會不代表隨便。越是短期、越是急件，越要讓對方知道你的專業值多少。</div>
+          </div>
+          <p class="mini-note">一句話總結：<b>你下一筆財運，會有點突然，但其實是你平常能力累積夠了，所以一出現就接得到。</b></p>
+        </article>
+
+        <article class="answer-card" id="answer-d">
+          <div class="answer-tag">選項 D</div>
+          <h3>你原本沒特別在意的能力，可能突然變得更值錢</h3>
+          <div class="subtitle">關鍵字：價值重估、能力變現、提高報酬、別人看見你的專業</div>
+          <p>你這組的財運，重點不一定是有沒有新案子，而是你開始發現：原來自己某個一直覺得普通的能力，其實對別人很有價值。這筆錢比較像是「重新認識自己的價值」之後，帶來的價格調整、合作升級，或更適合你的變現方式。</p>
+          <div class="divider"></div>
+          <div class="bullets">
+            <div class="bullet"><b>最可能的情境：</b> 別人主動誇你某個能力、願意出更高預算、你原本的服務被重新包裝後更好賣，或你找到更適合自己的賺錢切入點。</div>
+            <div class="bullet"><b>你要留意的訊號：</b> 常被問同一類問題、別人請你教、請你提供建議、有人覺得你做的事很難但你卻覺得很自然，這些都是價值線索。</div>
+            <div class="bullet"><b>你現在最適合做的事：</b> 盤點你最常被稱讚、最常被請託、最不費力卻做得不錯的能力，因為那很可能就是你下一波收入升級的入口。</div>
+            <div class="bullet"><b>這組的提醒：</b> 不要一直用「這很普通吧」看待自己的優勢。對你來說自然的東西，對別人可能正是願意付費的價值。</div>
+          </div>
+          <p class="mini-note">一句話總結：<b>你下一筆財運，可能不是多做更多，而是先看懂自己本來就有什麼值得被好好定價。</b></p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="cta">
+        <h2>如果你想更進一步看懂自己的財運方向</h2>
+        <p>大眾占卜可以先幫你抓到近期的財運主題；但如果你想知道的是：<b>你真正適合怎麼賺錢、目前的收入卡點在哪裡、哪一種工作／副業模式更適合你</b>，那就需要回到你的個人星盤與人類圖來看。</p>
+        <div class="cta-grid">
+          <div class="cta-item">
+            <b>你可以更清楚知道</b>
+            哪一種賺錢方式最適合你、近期該把力氣放在哪裡、你容易忽略的資源與優勢是什麼。
+          </div>
+          <div class="cta-item">
+            <b>也能一起整理</b>
+            目前的工作困惑、副業方向、接案模式、收入焦慮，幫你把模糊的感覺整理成可執行的下一步。
+          </div>
+        </div>
+        <p><b>命運給你初稿，人生由你定調。</b><br>如果你想預約 15 分鐘方向諮詢，可以直接加 LINE 找我。</p>
+        <div class="button-row">
+          <a class="btn btn-primary" href="https://lin.ee/nwLhY4M" target="_blank" rel="noopener">加 LINE 預約諮詢</a>
+          <a class="btn btn-secondary" href="index.html">回到資源總覽</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div><b>命運編輯部｜部長 Gina</b></div>
+      <div>占星 × 人類圖重新編輯人生</div>
+      <div>IG：@healingfq</div>
+    </footer>
+  </div>
+</body>
+</html>
